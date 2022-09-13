@@ -10,6 +10,7 @@ void print_alphabet(void)
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	char c;
 	int i = 0;
+
 	while (i < 26)
 	{
 		c = alphabet[i];
@@ -17,5 +18,4 @@ void print_alphabet(void)
 		i++;
 	}
 	_putchar('\n');
-	return; 
 }
