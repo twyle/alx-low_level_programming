@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	unsigned long n1 = 1;
-	unsigned long n2 = 2;
+	unsigned long n1 = 0;
+	unsigned long n2 = 1;
 	unsigned long sum = 0;
 	unsigned long res;
 	int count;
