@@ -15,10 +15,12 @@ int main(void)
         for (count = 1; count <= 50; count++)
         {
                 res = n1 + n2;
-                printf("%ld, ",res);
+		if (count != 50)
+			printf("%ld, ", res);
+		else
+			printf("%ld\n", res);
                 n1 = n2;
                 n2 = res;
         }
-        printf("\n");
         return (0);
 }
